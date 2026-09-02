@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bircal - Age Calculator</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #263238;
+        }
+
+        header {
+            background: linear-gradient(135deg, #163a63, #285987);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 52px;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+            color: #dce8f5;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        .hero {
+            background: white;
+            border-radius: 18px;
+            padding: 45px 30px;
+            text-align: center;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+            margin-top: -70px;
+        }
+
+        .hero h2 {
+            font-size: 30px;
+            margin-bottom: 15px;
+            color: #163a63;
+        }
+
+        .hero p {
+            font-size: 17px;
+            line-height: 1.7;
+            color: #607d8b;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .download {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 16px 35px;
+            background: #163a63;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .download:hover {
+            background: #285987;
+            transform: translateY(-2px);
+        }
+
+        .version {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #78909c;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px 20px;
+            border-radius: 14px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+        }
+
+        .card .icon {
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #163a63;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #607d8b;
+            line-height: 1.5;
+        }
+
+        .about {
+            background: white;
+            margin-top: 40px;
+            padding: 35px;
+            border-radius: 14px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+        }
+
+        .about h2 {
+            color: #163a63;
+            margin-bottom: 15px;
+        }
+
+        .about p {
+            color: #607d8b;
+            line-height: 1.7;
+        }
+
+        footer {
+            background: #163a63;
+            color: #dce8f5;
+            text-align: center;
+            padding: 25px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 700px) {
+            header h1 {
+                font-size: 40px;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+
+            .hero {
+                margin-top: -40px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>BIRCAL</h1>
+    <p>Professional Age Calculator</p>
+</header>
+
+<div class="container">
+
+    <section class="hero">
+
+        <h2>Calculate Your Age Easily</h2>
+
+        <p>
+            Bircal is a simple and professional Windows application
+            that calculates your exact age in Years, Months and Days.
+        </p>
+
+        <a class="download" href="Bircal.exe">
+            ⬇ Download Bircal for Windows
+        </a>
+
+        <div class="version">
+            Version 1.0 • Windows Application
+        </div>
+
+    </section>
+
+
+    <section class="features">
+
+        <div class="card">
+            <div class="icon">🎂</div>
+            <h3>Exact Age</h3>
+            <p>
+                Calculate your age accurately in
+                Years, Months and Days.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">⚡</div>
+            <h3>Fast & Simple</h3>
+            <p>
+                Easy-to-use interface with
+                quick age calculation.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">💻</div>
+            <h3>Windows App</h3>
+            <p>
+                Lightweight standalone application.
+                No Python installation required.
+            </p>
+        </div>
+
+    </section>
+
+
+    <section class="about">
+
+        <h2>About Bircal</h2>
+
+        <p>
+            Bircal is designed to provide a simple and convenient
+            way to calculate a person's age from their date of birth.
+            Enter the date of birth and instantly get the calculated
+            age in Years, Months and Days.
+        </p>
+
+    </section>
+
+</div>
+
+
+<footer>
+    © 2026 Bircal Software • All Rights Reserved
+</footer>
+
+</body>
+</html>
